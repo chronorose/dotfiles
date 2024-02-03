@@ -1,0 +1,6 @@
+[[language]]
+name = "scala"
+language-servers = ["metals"]
+
+[language-server.metals]
+config = {metals.ammoniteJvmProperties = ["-Xmx1G"]}
